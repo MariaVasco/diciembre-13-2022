@@ -1,5 +1,5 @@
-const UserCard = ({ userData }) => {
-  const {name, age} = userDta
+const UserCard = ({ UserData }) => {
+  const {name, age} = UserData
   return (
     <div>
       <h3>Nombre</h3>

@@ -27,7 +27,7 @@ function App() {
       <hr />
       {
         userArray.map((user, index) => {
-          return <UserCard Userdata={user} key={`user-{index}`} />
+          return <UserCard UserData={user} key={`user-${index}`} />
         })
       }
     </div>
